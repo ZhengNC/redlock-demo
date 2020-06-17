@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: redlock
+
+  redis:
+    password: 123456
+    cluster:
+      nodes: 192.168.40.131:6379, 192.168.40.134:6379, 192.168.40.135:6379
